@@ -1,0 +1,11 @@
+email: guilherme@uft.edu.br
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Guilherme Ferreira'
+title: 'Site Administrator'
+state: enabled
+hashed_password: $2y$10$hyEJcVYIdFptyCjf6kvpc.qzxjgiQnIp0dALJNuo4Xjpm0mvpgNSe

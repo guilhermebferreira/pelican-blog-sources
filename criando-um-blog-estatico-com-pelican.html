@@ -3,7 +3,7 @@
 <head>
         <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Guilherme Dev Blog | Criando um blog estatico com Pelican</title>
+    <title>Guilherme DEV Blog | Criando um blog estatico com Pelican</title>
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="/theme/css/screen.css" type="text/css" />
@@ -18,10 +18,12 @@
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
+                <li><a href="/categories">Categorias</a></li>
+                <li><a href="/about.html">Sobre mim</a></li>
             </ul>
         </nav>
         <div class="header_box">
-            <h1><a href="/">Guilherme Dev Blog</a></h1>
+            <h1><a href="/">Guilherme DEV Blog</a></h1>
         </div>
     </header>
     <div id="wrapper">
@@ -69,14 +71,17 @@ Os metadados devem ser informado no inicio do arquivo como o exemplo abaixo:</p>
                     &nbsp;<a href="/tag/cms.html" class="tags">CMS</a>
                     &nbsp;<a href="/tag/pelican.html" class="tags">Pelican</a>
                 </div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'guilhermebferreira.github.io';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
             </article>
-            <div class="clear"></div>
-            <footer>
-                <p>
-                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
-                &middot;
-                Powered by <a href="http://getpelican.com">Pelican</a>
-            </footer>
         </div>
         <div class="clear"></div>
     </div>
