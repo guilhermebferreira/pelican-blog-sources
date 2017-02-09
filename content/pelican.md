@@ -3,6 +3,10 @@ Date: 2017-01-23 17:20
 Category: CMS
 Tags: CMS, Pelican
 
+![Pelican - sites estáticos][1]
+
+[1]: /images/pelican.png
+
 [Pelican](https://github.com/getpelican/pelican) é um gerador de sites estaticos, escrito em Python.
 
 Sua instalação e execução é bastante simples e depende de poucas linhas de comando.
@@ -24,4 +28,5 @@ Os metadados devem ser informado no inicio do arquivo como o exemplo abaixo:
 	Category: CMS
 
 Depois basta rodar o comando 
+
 	pelican content

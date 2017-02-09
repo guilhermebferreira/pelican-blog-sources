@@ -49,6 +49,7 @@ ARCHIVES_URL       = 'archives'
 ARCHIVES_SAVE_AS   = 'archives/index.html'
 ABOUT_ME   		   = 'about.html'
 
+STATIC_PATHS = ['images']
 # use those if you want pelican standard pages to appear in your menu
 MENU_INTERNAL_PAGES = (
     ('Categorias', CATEGORIES_URL, CATEGORIES_SAVE_AS), 
