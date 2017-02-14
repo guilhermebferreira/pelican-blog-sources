@@ -36,7 +36,8 @@ DISPLAY_FOOTER = False
 DISPLAY_HOME   = True
 DISPLAY_MENU   = True
 
-DISQUS_SITENAME = 'guilhermebferreira.github.io'
+DISQUS_SITENAME = 'https-guilhermebferreira-github-io'
+GOOGLE_ANALYTICS = "UA-84295907-1"
 
 # provided as examples, they make ‘clean’ urls. used by MENU_INTERNAL_PAGES.
 TAGS_URL           = 'tags'
