@@ -15,7 +15,7 @@ Apesar de inicialmente não parecer muito amigável para quem não tem skills de
 
 Para resolver essa dificuldade inicial em relação à configuração do servidor, em se tratando de hospedagem PHP, uma boa solução é utilizar o Serverpilot.
 
-O Serverpilot conecta-se ao seu droplet ubuntu da digital ocean, e configura o configura como um servidor para rodar o php e o mysql, além de algumas configurações de segurança.
+O [Serverpilot](https://serverpilot.io/) conecta-se ao seu droplet ubuntu da digital ocean, e configura o configura como um servidor para rodar o php e o mysql, além de algumas configurações de segurança.
 
 Utilizando Digital Ocean + Serverpilot é possível colocar um site wordpress ou joomla no ar em cerca de 10 minutos.
 
