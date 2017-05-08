@@ -12,7 +12,7 @@ TIMEZONE = 'America/Araguaina'
 
 DEFAULT_LANG = 'pt'
 
-THEME = 'blue-penguin-master'
+THEME = 'blue-penguin'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

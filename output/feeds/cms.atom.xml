@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Guilherme DEV Blog - CMS</title><link href="https://guilhermebferreira.github.io/" rel="alternate"></link><link href="https://guilhermebferreira.github.io/feeds/cms.atom.xml" rel="self"></link><id>https://guilhermebferreira.github.io/</id><updated>2017-02-20T14:54:00-03:00</updated><entry><title>Utilizando temas no Pelican</title><link href="https://guilhermebferreira.github.io/utilizando-temas-no-pelican.html" rel="alternate"></link><published>2017-02-20T14:54:00-03:00</published><updated>2017-02-20T14:54:00-03:00</updated><author><name>Guilherme Ferreira</name></author><id>tag:guilhermebferreira.github.io,2017-02-20:/utilizando-temas-no-pelican.html</id><summary type="html">&lt;p&gt;&lt;img alt="utilizando temas no pelican" src="https://cloud.githubusercontent.com/assets/5393392/23137957/b92f9b18-f783-11e6-929f-f376299d16b1.png"&gt;&lt;/p&gt;
+&lt;p&gt;Através do site &lt;a href="http://www.pelicanthemes.com/"&gt;pelicanthemes&lt;/a&gt; você pode ver uma lista de temas disponiveis para o Pelican&lt;/p&gt;
+&lt;p&gt;Para utilizar em seu site, baixe os arquivos do tema em uma pasta e utilize o &lt;code&gt;pelican-themes&lt;/code&gt; para instalar&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pelican-themes --install /home/user/Downloads/blue-penguin-master
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Nesse exemplo escolhemos o tema &lt;code&gt;blue-penguin&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Você consegue verificar a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="utilizando temas no pelican" src="https://cloud.githubusercontent.com/assets/5393392/23137957/b92f9b18-f783-11e6-929f-f376299d16b1.png"&gt;&lt;/p&gt;
+&lt;p&gt;Através do site &lt;a href="http://www.pelicanthemes.com/"&gt;pelicanthemes&lt;/a&gt; você pode ver uma lista de temas disponiveis para o Pelican&lt;/p&gt;
+&lt;p&gt;Para utilizar em seu site, baixe os arquivos do tema em uma pasta e utilize o &lt;code&gt;pelican-themes&lt;/code&gt; para instalar&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pelican-themes --install /home/user/Downloads/blue-penguin-master
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Nesse exemplo escolhemos o tema &lt;code&gt;blue-penguin&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Você consegue verificar a lista de temas ibnstalado executando o comando &lt;code&gt;pelican-themes -l&lt;/code&gt; ou &lt;code&gt;pelican-themes --list&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pelican-themes -l
+blue-penguin-master
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Em seguida altere o parametro &lt;code&gt;THEME&lt;/code&gt; no arquivo &lt;code&gt;pelicanconf.py&lt;/code&gt; preechendo-o com o nome do tema desejado.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;THEME = &amp;#39;blue-penguin-master&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="blue-penguin tema para Pelican" src="https://cloud.githubusercontent.com/assets/5393392/23137991/d203f33c-f783-11e6-8e13-e8e7ff08b4fc.png"&gt;&lt;/p&gt;
+&lt;p&gt;Na proxima vez que o Pelican for executado, o novo tema será carregado.&lt;/p&gt;</content><category term="CMS"></category><category term="Pelican"></category><category term="theme"></category></entry><entry><title>Criando um blog estatico com Pelican</title><link href="https://guilhermebferreira.github.io/criando-um-blog-estatico-com-pelican.html" rel="alternate"></link><published>2017-01-23T17:20:00-03:00</published><updated>2017-01-23T17:20:00-03:00</updated><author><name>Guilherme Ferreira</name></author><id>tag:guilhermebferreira.github.io,2017-01-23:/criando-um-blog-estatico-com-pelican.html</id><summary type="html">&lt;p&gt;&lt;img alt="Pelican - sites estáticos" src="https://cloud.githubusercontent.com/assets/5393392/22984032/ea8276fe-f382-11e6-85de-ad5b9e00ca31.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/getpelican/pelican"&gt;Pelican&lt;/a&gt; é um gerador de sites estaticos, escrito em Python.&lt;/p&gt;
+&lt;p&gt;Sua instalação e execução é bastante simples e depende de poucas linhas de comando.&lt;/p&gt;
+&lt;h1&gt;Instalação e configuraçao do Pelican&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install pelican markdown
+pelican-quickstart
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Execução do pelican em abiente de local&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd output/
+python3 -m pelican.server
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Criação de conteúdo …&lt;/h1&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Pelican - sites estáticos" src="https://cloud.githubusercontent.com/assets/5393392/22984032/ea8276fe-f382-11e6-85de-ad5b9e00ca31.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/getpelican/pelican"&gt;Pelican&lt;/a&gt; é um gerador de sites estaticos, escrito em Python.&lt;/p&gt;
+&lt;p&gt;Sua instalação e execução é bastante simples e depende de poucas linhas de comando.&lt;/p&gt;
+&lt;h1&gt;Instalação e configuraçao do Pelican&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install pelican markdown
+pelican-quickstart
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Execução do pelican em abiente de local&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd output/
+python3 -m pelican.server
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Criação de conteúdo&lt;/h1&gt;
+&lt;p&gt;Para criar conteudo, basta criar arquivos de texto dentro do diretório content/ utilizando a extenção .md (&lt;a href="http://daringfireball.net/projects/markdown/"&gt;markdown&lt;/a&gt; )
+Os metadados devem ser informado no inicio do arquivo como o exemplo abaixo:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Criando&lt;/span&gt; &lt;span class="n"&gt;um&lt;/span&gt; &lt;span class="n"&gt;blog&lt;/span&gt; &lt;span class="n"&gt;estatico&lt;/span&gt; &lt;span class="n"&gt;com&lt;/span&gt; &lt;span class="n"&gt;Pelican&lt;/span&gt;
+&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2017&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;01&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;23&lt;/span&gt; &lt;span class="mi"&gt;17&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;
+&lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;CMS&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Depois basta rodar o comando &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pelican content
+&lt;/pre&gt;&lt;/div&gt;</content><category term="CMS"></category><category term="Pelican"></category></entry></feed>
