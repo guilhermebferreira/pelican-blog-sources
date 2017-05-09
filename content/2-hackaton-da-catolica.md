@@ -41,7 +41,7 @@ Foram cerca de 28 inscritos, que se dividiram em equipes com dois participantes 
 
 O Evento foi planejado para pouco mais de 12 horas duração. Começando as 19h com uma palestra de apresentação do tema, seguindo de 12 horas para desenvolvimento e finalizando na parte da manhã com cada equipe apresentando os resultados da madrugada de trabalho.
 
-Mas devido a atrasos, e há uma mudança na programação que colocou uma palestra da Semana de Tecnologia antes da palestra de abertura do Hackaton, o inicio das atividades que estava previsto para às 20h foi adiado para depois das 21h
+Mas devido a atrasos, e a uma mudança na programação que colocou uma palestra da Semana de Tecnologia antes da palestra de abertura do Hackaton, o inicio das atividades que estava previsto para às 20h foi adiado para depois das 21h
 
 ![Talles Moura fazendo a apresentação do tema do evento](https://cloud.githubusercontent.com/assets/5393392/25823599/f946e56e-3412-11e7-82bc-3e306e25a0f7.jpg)
 
