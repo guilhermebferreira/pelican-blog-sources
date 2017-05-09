@@ -69,3 +69,10 @@ MENUITEMS = (
 
 SOCIAL = (('twitter', 'https://twitter.com/Guilh_rm_'),
           ('Another social link', '#'),)
+
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ['sitemap', 'another_read_more_link']
+
+
+ANOTHER_READ_MORE_LINK = 'Leia mais'
+ANOTHER_READ_MORE_LINK_FORMAT = '<a class="another-read-more-link" href="/{url}" >{text}</a>'

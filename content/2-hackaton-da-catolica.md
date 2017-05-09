@@ -54,7 +54,8 @@ Formei dupla com um amigo de longa data, o Luiz Carvalho, e conseguimos formar u
 
 Dedicamos as primeiras horas do evento a ler o quanto fosse possível sobre o tema e com isso imaginar possíveis app’s e soluções.
 
-...
+<!-- more -->
+
 
 Depois escolhemos as melhores ideias e procuramos os mentores para validar qual das duas valia mais a pena desenvolver. Com isso começamos a trabalhar a ideia do Horta Urbana.
 
