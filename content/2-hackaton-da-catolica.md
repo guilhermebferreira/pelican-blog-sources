@@ -2,6 +2,7 @@ Title: Horta Urbana e o 2ª Hackaton da Faculdade Catolica
 Date: 2017-05-08 16:40
 Category: Eventos
 Tags: Hackaton
+FacebookImage: https://cloud.githubusercontent.com/assets/5393392/25824280/2998a160-3415-11e7-8f32-7a7060723994.png
 
 
 ![Hackaton da Católica](https://cloud.githubusercontent.com/assets/5393392/25824280/2998a160-3415-11e7-8f32-7a7060723994.png)
