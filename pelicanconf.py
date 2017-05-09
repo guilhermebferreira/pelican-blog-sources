@@ -49,16 +49,20 @@ CATEGORIES_SAVE_AS = 'categories/index.html'
 ARCHIVES_URL       = 'archives'
 ARCHIVES_SAVE_AS   = 'archives/index.html'
 ABOUT_ME   		   = 'about.html'
+CONTATO   		   = 'contato.html'
 
 STATIC_PATHS = ['images']
 # use those if you want pelican standard pages to appear in your menu
 MENU_INTERNAL_PAGES = (
     ('Categorias', CATEGORIES_URL, CATEGORIES_SAVE_AS), 
     ('Sobre mim', ABOUT_ME,	ABOUT_ME),
+    ('Contato', CONTATO,	CONTATO),
 )
 # additional menu items
 MENUITEMS = (
-    #('GitHub', 'https://github.com/guilhermebferreira'),
+    ('GitHub', 'https://github.com/guilhermebferreira'),
+
+    #('Contato',  	CONTATO),
    
 )
 

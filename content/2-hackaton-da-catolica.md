@@ -54,6 +54,8 @@ Formei dupla com um amigo de longa data, o Luiz Carvalho, e conseguimos formar u
 
 Dedicamos as primeiras horas do evento a ler o quanto fosse possível sobre o tema e com isso imaginar possíveis app’s e soluções.
 
+...
+
 Depois escolhemos as melhores ideias e procuramos os mentores para validar qual das duas valia mais a pena desenvolver. Com isso começamos a trabalhar a ideia do Horta Urbana.
 
 O primeiro rascunho que fiz do modelo de entidade relacional para o backend da aplicação tinha pelo menos 10 tabelas. E o Luiz Carvalho precisou me convencer que era uma proposta inviável para implementarmos nas 12 horas do evento.
@@ -98,7 +100,7 @@ Exibia para o cliente o status da assinatura
 
 Com o escopo reduzido conseguimos disponibilizar uma versão funcional da aplicação (Chatbot e interface administrativa). E por volta das cinco da manhã começamos a nos dedicar apenas aos slides da apresentação.
 
-Quem tiver a curiosidade de ver o resultado pode acessar o chatbot através da página do Horta Urbana no facebook (), iniciar uma conversa a partir desse link () e ainda inspecionar o código do backend nesse repositório ().
+Quem tiver a curiosidade de ver o resultado pode acessar o chatbot através da página do Horta Urbana no [facebook](https://www.facebook.com/Horta-Urbana-1295410903900087/?fref=ts), iniciar uma conversa a partir desse [link](http://bit.ly/hurbana) e ainda inspecionar o código do backend nesse [repositório](https://github.com/guilhermebferreira/horta-urbana).
 
 # Resultado
 
