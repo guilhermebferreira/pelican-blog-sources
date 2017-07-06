@@ -17,5 +17,10 @@ Trata-se de...
 
 O custo para mander um snapchot é de 0,05 dolares por giga ao mês
 
+	$0.05 per gigabyte per month, based on the amount of utilized space within the filesystem.
+
+Um detalhe interessante, é que o tamanho levado em consideração ao calcular o valor é o uso real que você fez da sua maquina.
+Se você criou uma maquina com 20GB, mas sua aplicação + sistema operacional ocupam apenas 3GB, esses 3GB serão os levados em consideração na hora de calcular o custo mensal (U$ 0,15 nesse exemplo). 
+
 Há varios casos onde isso pode ser útil, alguns casos mais básicos são aplicações ou servidores que são utilizados de forma periodica, mas apenas durante determinado intervalo de tempo, e por isso não precisam ficar disponiveis 24 horas por dia, 7 dias por semana.
 
