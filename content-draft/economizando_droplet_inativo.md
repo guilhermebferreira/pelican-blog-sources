@@ -13,7 +13,16 @@ Então acabei não me interessando em usar snapshots e não olhei mais detalhes 
 
 Recentemnete em uma conversa, alguns amigos que tambem usam, o Digital Ocean, me mostraran uma forma de diminuir custos, quando uma aplicação só precisa funcionar durante periodos especificos do mês (ou mesmo do ano).
 
-Trata-se de...
+Os passos são os seguintes
+
+	- Você cria e configura seu droplet com a aplicação
+	- Utiliza pelo tempo necessário
+	- Faz um snapshot da maquina
+	- Destroí o droplet (ficando apenas  com o snapshot correspondente)
+
+Quando precisar utilizar a aplicação novamente
+	- Você restaura o droplet a partir do snapshot
+	- Ativa o droplet novamente
 
 O custo para mander um snapchot é de 0,05 dolares por giga ao mês
 
